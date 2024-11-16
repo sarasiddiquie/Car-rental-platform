@@ -1,0 +1,66 @@
+body {
+  background-color: #F2E5BF; /* Light background color */
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  margin-top: 30px; /* Reduced margin for the container */
+}
+
+h2 {
+  color: #257180; /* Dark teal color for the heading */
+  text-align: center;
+  margin-bottom: 5px; /* Reduced margin below the heading */
+}
+
+.form-group {
+  margin-bottom: 10px; /* Reduced margin between form groups */
+}
+
+.form-group label {
+  color: #257180; /* Dark teal for labels */
+  margin-bottom: 3px; /* Reduced margin below the label */
+}
+
+.form-control {
+  border: 1px solid #CB6040; /* Dark coral border for input fields */
+  border-radius: 5px;
+  padding: 6px; /* Reduced padding inside input fields */
+}
+
+.form-control:focus {
+  border-color: #FD8B51; /* Bright coral on focus */
+  box-shadow: 0 0 5px rgba(253, 139, 81, 0.5); /* Focus shadow */
+}
+
+.btn-primary {
+  background-color: #FD8B51; /* Bright coral for button */
+  border: none;
+  border-radius: 5px;
+  padding: 6px 12px; /* Further reduced padding for the button */
+  font-size: 14px; /* Font size */
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #CB6040; /* Dark coral on hover */
+}
+
+.mt-3 {
+  margin-top: 0.5rem; /* Reduced margin for mt-3 */
+  text-align: center;
+}
+
+p {
+  color: #257180; /* Dark teal for paragraph text */
+  margin-top: 5px; /* Reduced margin above the paragraph */
+}
+
+a {
+  color: #FD8B51; /* Bright coral for link */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
